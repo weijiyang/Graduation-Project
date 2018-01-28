@@ -5,5 +5,5 @@
 
 ### 技术
 * vue
-*thinkPhp
-*bootstrap
+* thinkPhp
+* bootstrap
