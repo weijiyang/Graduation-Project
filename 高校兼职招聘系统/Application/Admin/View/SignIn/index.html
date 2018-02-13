@@ -1,0 +1,85 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>高校兼职招聘系统</title>
+	<link rel="stylesheet" href="__PUBLIC__/admin/css/public.css">
+	<link rel="stylesheet" href="__PUBLIC__/admin/css/signIn.css">
+	<script src="__PUBLIC__/admin/js/jquery-1.8.3.min.js"></script>
+	<script src="__PUBLIC__/admin/js/signIn.js"></script>
+</head>
+<body>
+	<div class="jy_mask jy_mask_sys"  style="display:none;">
+		<div class="jy_sys">
+			<div class="jy_sys_key">
+				<div class="key_title clearfix">
+					<span>短信密钥验证码(15101161528)</span>
+					<a class="jy_gb fr" href="#">
+						<img src="__PUBLIC__/admin/images/signIn/UserFeedBack/gb.gif" alt="关闭按钮" />
+					</a>
+				</div>
+				<div class="key_msg">
+					<span>验证码 ：</span>
+					<input type="text" />
+				</div>
+				<div class="key_button clearfix">
+					<a href="#" class="fr">重新发送</a>
+					<a href="#" class="fr">提交</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="jy_mask_tip" style="display:none;">
+		<div class="jy_tip">
+			<img src="__PUBLIC__/admin/images/signIn/yzm/jy_tip.png" alt="正确" />
+			<div>短信验证码已发送至<span id="jy_telnum">15101161588</span>，请查收并在10分钟内登陆。</div>
+		</div>
+	</div>
+	<div class="jy_contain">
+		<div class="jy_content clearfix">
+			<div class="jy_signIn fr">
+				<div class="jy_signIn_msg">
+					<ul>
+						<li>
+							<span>用户名：</span>
+							<input type="text" />
+						</li>
+						<li class="clearfix">
+							<span>密&#12288;码：</span>
+							<input type="password" />
+							<div class="pass_action fr">
+								<a href="#">忘记密码</a>
+								<a href="#">显示密码</a>
+							</div>
+						</li>
+						<li>
+							<span>验证码：</span>
+							<input type="text" id="jy_yzm"/>
+							<img src="__PUBLIC__/admin/images/signIn/yzm/yzm.jpg" alt="yzm" />
+						</li>
+					</ul>
+				</div>
+				<a href="#" class="signIn_button" ></a>
+				<a href="#" class="jy_process">联系管理员</a>
+
+				<div class="jf_browser clearfix">
+					<img class="fr" src="__PUBLIC__/admin/images/signIn/login/split/ie.png" alt="browser" />
+					<img class="fr" src="__PUBLIC__/admin/images/signIn/login/split/firefox.png" alt="browser" />
+					<img class="fr" src="__PUBLIC__/admin/images/signIn/login/split/chrome.png" alt="browser" />
+				</div>
+				<div class="jy_footer"></div>
+			</div>
+
+
+
+
+
+
+			<div class="jy_title">
+				<img src="__PUBLIC__/admin/images/signIn/login/split/jfLoginLogo.png" alt="logo" />
+				高校兼职招聘系统
+			</div>
+		</div>
+		
+	</div>
+</body>
+</html>
