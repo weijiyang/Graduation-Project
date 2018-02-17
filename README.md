@@ -8,7 +8,6 @@
 * 后台
 
 ### 技术
-* vue
 * thinkPhp
 * bootstrap
 ### 进度
