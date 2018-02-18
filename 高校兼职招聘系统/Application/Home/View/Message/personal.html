@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>personal</title>
+<link rel="stylesheet" href="__PUBLIC__/home/css/personal.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/home/css/city-picker.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/home/css/manhuaDate.1.0.css">
+<script type="text/javascript" src="__PUBLIC__/home/js/jquery-1.8.3.min.js"></script>	
+<script type="text/javascript" src="__PUBLIC__/home/js/manhuaDate.1.0.js"></script>
+<script  src="__PUBLIC__/home/js/adremuse.js"> </script>
+<script src="__PUBLIC__/home/js/personal.js"></script>
+</head>
+<body>
+<div class="nav">
+	<nav>
+		<ul>
+			<li><a href="home.html">首页</a></li>
+			<li><a href="#">公司</a></li>
+			<li><a href="#">内推</a></li>
+			<li><a href="#">加油站</a></li>
+			<li><a href="#">个人中心</a></li>
+		</ul>
+	</nav>
+	<div class="login"><a href="#">登陆</a><span></span>
+		<a href="#">注册</a>
+	</div>
+</div>
+
+
+<div class="container">
+<div class="mr_myresume_r">
+<div class="mr_r_nav">
+	<ul class="clearfixs">
+		<li>
+           <a href="#">
+           	投递箱<i class="td"></i></a>
+ 		</li>
+		<li>
+			<a href="#" >邀请函<i class="yq"></i></a>
+		</li>
+		<li>
+			<a href="#"  >收藏夹<i class="sc"></i></a>
+		</li>
+		<li class="mr_none">
+			<a href="#">订阅栏<i class="dy"></i></a>
+		</li>
+	</ul>
+</div>
+<div class="mr_uploaded clearfixs" style="display: block;">
+	<a href="javascript:;" class="mr_del"></a>
+	<div class="mr_up_main">
+		<a href="http://www.lagou.com/nearBy/downloadResume" title="下载黎洁 前端工程师.pdf">黎洁 前端工程师.pdf</a>
+		<p></p>
+	</div>
+	<div class="mr_set_default">
+		<div class="set_default_wrap">
+  			<input id="default_resume" type="button" class="mr_button" value="默认投递：附件简历">
+  			<span><i class="mr_sj"></i></span>
+			<div class="xl_list dn" style="display: none;">
+	 			<ul class="ul_resume_type">
+	 				<li data-type="1">默认投递：在线简历</li>
+	 				<li data-type="0">默认投递：附件简历</li>
+	 			</ul>
+ 			</div>	
+ 		</div>					   	 				
+	</div>
+</div>
+<div class="mr_module" id="mr_module">
+					<ul>
+						<li class="active md_flag" >
+							<a class="clearfixs" href="#base-mr">
+								<i class="mr_base_i"></i>
+								<span class="mr_m_name">基本信息</span>
+							</a>
+						</li>
+						<li  class="md_flag">
+							<a class="clearfixs" href="#item1">
+								<i class="mr_works_i"></i>
+								<span class="mr_m_name"> 实习经历  </span>
+							</a>
+						</li>
+						<li  class="md_flag">
+							<a class="clearfixs" href="#item2">
+								<i class="mr_edu_i"></i>
+								<span class="mr_m_name">教育经历</span>
+							</a>
+						</li>
+						<li  class="dn m_hide">
+							<a class="clearfixs" href="#item3">
+								<span class="mr_hide_del"></span>
+								<i class="mr_project_i"></i>
+								<span class="mr_m_name">项目经验</span>
+							</a>
+						</li>
+						<li class="m_hide md_flag">
+							<a class="clearfixs" href="#item4">
+								<!-- <span class="mr_hide_del"></span>						 -->
+								<i class="mr_hopework_i"></i>
+								<span class="mr_m_name">期望工作</span>
+							</a>
+						</li>					
+						
+					</ul>
+				</div>
+</div>
+	<div class="main-myResume" id="main-myResume">
+		<div id="name-mr" class="name-mr">
+			<div class="bg-name"><img src="__PUBLIC__/home/images/index/resumeBg.jpg"width="100%"></div>
+			<div class="pro-name">
+				<div class="perPhoto webuploader-container"><div class="webuploader-pick">
+					<i class="camera"></i>
+					<img src="__PUBLIC__/home/images/index/photo.png">
+					<div id="tips" class="default"><div>头像最大400K,支持gif,jpg,jpeg格式。</div></div>
+				</div><div id="rt_rt_1ag58a29h1hhcoet1m2j8t176r1" style="position: absolute; top: 0px; left: 0px; width: 138px; height: 138px; overflow: hidden; bottom: auto; right: auto;"><input id="file" type="file" capture="camera" name="file" class="webuploader-element-invisible" multiple="multiple" accept="image/*"><label id="camera" for="file" style="opacity: 0; width: 100%; height: 100%; display: block; cursor: pointer; background: rgb(255, 255, 255);"></label></div></div>
+				<div class="wz-name">
+					<h3>黎洁</h3>
+					<p title=""></p>
+				</div>
+			</div>
+		</div>
+		<!-- 基本信息 -->
+		<div id="base-mr" class="base-mr">
+			<!-- 基本信息编辑 -->
+			<div class="editBase">
+				
+			</div>
+			<!-- 基本信息内容 -->
+			<div id="inforBase" class="inforBase">
+				<div class="changeBase"><i onclick="show()" class="m-icon i-pen"></i></div>
+				<div class="lfInBase">
+					<ul>
+						<li><i class="m-icon i-person"></i>
+							<div class="conInBase">
+								<p>
+								<em>女</em>	<em>27</em>						    	
+								</p>
+									<p>
+									</p>
+								</div>
+							</li>
+							<li><i class="m-icon i-file"></i>
+								<div class="conInBase">
+									<p>
+										<em>本科</em>
+										<em> 一年以下工作经验  </em>
+									</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="rtInBase">
+						<ul>
+							<li><i class="m-icon i-target"></i>
+								<div class="conInBase">
+									<p>
+										<em>目前居住地：辽宁-大连</em>						    	</p>
+										<p>
+										</p>
+									</div>
+								</li>
+								<li><i class="m-icon i-phone"></i>
+									<div class="conInBase">
+										<p><em>15840820382</em></p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+<script>
+	function show(){
+		var inforBase=document.getElementById('inforBase');
+		var editBase=document.getElementById("editBase");
+		inforBase.style.display="none";
+		editBase.style.display="block"
+	}
+</script>
+				
+       <!-- 基本信息填写 -->
+		<div  id="editBase"class="editBase" style="display: none;">
+		<div class="conedBase">
+			<div class="edBase01">
+				<div class="lfBase01">
+					<div class="wordMr"><em>*</em>姓名</div>
+					<div class="inputMr">
+						<input name="basicInfo.name" type="text" value="黎洁" class="txt must formTerms">
+					</div>
+				</div>
+				<div class="rtBase01">
+					<div class="wordMr"><em>*</em>性别</div>
+					<div  id="sex"class="inputMr iptrio">
+						<a href="javascript:;"class="iptRadio boy"><i class="m-icon i-boy"></i>男</a>
+						<a href="javascript:;" class="iptRadio girl checked"><i class="m-icon i-girl"></i>女</a>
+					</div>
+					<input id="sexDummy" class="formTerms" type="hidden" name="" value="2">
+				</div>
+			</div>
+			<div class="edBase01">
+				<div class="lfBase01">
+					<div class="wordMr"><em>*</em>出生年月</div>
+					<div id="birth" class="inputMr">
+						<div  id="ipt-child"class="ipt-child">
+							<input id="birthDay" class="txt must formTerms" value="1989年二月" name="birth" type="text" readonly="true">
+							<i class="m-icon i-dn ico-intxt"></i>
+						</div>
+					</div>
+
+				</div>
+				<div class="rtBase01">
+					<div class="wordMr"><em></em>身高</div>
+					<div class="inputMr">
+						<input  min="100" max="250"id="height" type="text"  value="" name="" class="txt formTerms"maxlength="3">
+						<i class="iptLast">CM</i>
+					</div>
+				</div>
+			</div>
+			<div class="edBase01">
+				<div class="lfBase01">
+					<div class="wordMr"><em>*</em>最高学历</div>
+					<div class="inputMr">
+						<div id="hEducation"  class="ipt-child selc-child">
+							<span class="ipt-spn" >本科<i class="icon-ar ar-dn"></i></span><ul style="height: 210px; overflow-y: scroll;"><li  value="1">博士</li><li  value="2">EMBA</li><li  value="3">MBA</li><li  value="4">硕士</li><li  value="5" class="on">本科</li><li  value="6">大专</li><li  value="7">高职</li><li  value="8">高中</li><li  value="9">职高</li><li  value="10">中专</li><li  value="11">中职</li><li  value="12">中技</li><li  value="13">初中</li><li  value="14">其他</li></ul>
+						</div>
+						<input id="hEducationDummy" class="formTerms option" type="hidden" name="" value="5">
+					</div>
+				</div>
+				<div class="rtBase01">
+					<div class="wordMr"><em></em>婚姻状况</div>
+					<div  id="inputMr" class="inputMr iptrio">
+						<a href="javascript:;" data-val="1" class="iptRadio checked">未婚</a>
+						<a href="javascript:;" data-val="0" class="iptRadio">已婚</a>
+					</div>
+					<input id="marriedDummy" class="formTerms" type="hidden" name="" value="0">
+				</div>
+			</div>
+			<div class="edBase01">
+				<div class="lfBase01">
+					<div class="wordMr"><em>*</em>目前居住地</div>
+					<div class="inputMr" >
+						<div class="ipt-child">
+							<input id="nowLive" readonly="true"  type="text" class="txt must" value="辽宁,大连" title="辽宁,大连">
+							<input id="nowLiveDummy" class="formTerms mult" type="hidden" name="" value="13,134">
+							<i class="m-icon i-dn ico-intxt"></i>
+						</div>
+					</div>
+				</div>
+				<div class="rtBase01">
+					<div class="wordMr"><em></em>户口所在地</div>
+					<div class="inputMr">
+						<div class="ipt-child">
+							<input id="rpr" readonly="true" dvalue="" title="" type="text" class="txt">
+							<input id="rprDummy" class="formTerms mult" type="hidden" name="" value="">
+							<i class="m-icon i-dn ico-intxt"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="edBase01">
+				<div class="lfBase01">
+					<div class="wordMr"><em>*</em>参加工作时间</div>
+					<div class="inputMr">
+						<div class="ipt-child">
+							<input id="workTime" class="txt must formTerms" name="workTime" value="2016-03" type="text" readonly="true">
+							<i class="m-icon i-dn ico-intxt"></i>
+						</div>
+					</div>
+				</div>
+				<div class="rtBase01">
+					<div class="wordMr"><em></em>海外工作经验</div>
+					<div id="haiwai" class="inputMr iptrio" >
+						<a href="javascript:;" data-val="2" class="iptRadio checked">无</a>
+						<a href="javascript:;" data-val="1" class="iptRadio">有</a>
+					</div>
+					<input id="abroadExpDummy" class="formTerms" type="hidden"  value="2">
+				</div>
+			</div>
+			<div class="edBase01">
+				<div class="lfBase01">
+					<div class="wordMr"><em>*</em>手机</div>
+					<div class="inputMr">
+						<input  type="text" value="15840820382" class="txt must formTerms" required="required" >
+					</div>
+				</div>
+				<div class="rtBase01">
+					<div class="wordMr"><em></em>电子邮箱</div>
+					<div class="inputMr">
+						<input  type="email" value="" class="txt formTerms">
+					</div>
+				</div>
+			</div>
+			<div class="edBase01">
+				<div class="wordMr"><em></em>一句话自我介绍</div>
+				<div class="inputMr ta">
+					<div class="num"><em>0</em>/50</div>
+					<textarea class="formTerms" data-num="50" name="basicInfo.wonderfullPoint" cols="" rows=""></textarea>
+				</div>
+			</div>
+			<div class="wrap-btn">
+				<input type="submit" value="保存" class="btn" id="edBase-submit">
+				<input type="button" value="取消" class="btn white" id="edBase-cancel" >
+			</div>
+		</div>
+	</div>
+</div>
+<div class="workjy" id="item1">
+	<div class="mr_title">
+		
+		<span class="mr_title_c"> 实习经历  </span>
+		<span class="tianjia" onclick="tianjia(this)">
+			<i  class="m-icon i-pen"></i> <em>添加</em>
+		</span>
+	</div>
+	<div class="mr_add_work" >
+	<div class="list1">
+	<label for="">公司</label><input type="text"> </div>
+	<div class="list1">
+	<label for="">职位</label><input type="text"> </div>
+	<div class="list1">
+	<label for="">在职时间</label><input type="text" id="jiuzhi1">    —<input type="text" id="jiuzhi2"></div>
+	<div class="list1">
+	<label for="">描述</label><textarea class="formTerms"cols="10" rows="10"></textarea> </div>
+	<div class="wrap-btn">
+				<input type="submit" value="保存" class="btn" >
+				<input type="button" value="取消" class="btn white"  onclick="quxiao(this)">
+			</div>
+	</div>
+
+</div>
+<div class="workjy"  id="item2">
+	<div class="mr_title">
+		
+		<span class="mr_title_c"> 教育经历  </span>
+		<span class="tianjia" onclick="tianjia(this)">
+			<i  class="m-icon i-pen"></i> <em>添加</em>
+		</span>
+	</div>
+	<div class="mr_add_work">
+	<div class="list1">
+	<label for="">学校</label><input type="text"> </div>
+	<div class="list1">
+	<label for="">专业</label><input type="text"> </div>
+	<div class="list1">
+	<label for="">就读时间</label><input type="text">    —<input type="text"></div>
+	<div class="list1">
+	<label for="">经历</label><textarea class="formTerms"cols="10" rows="10"></textarea> </div>
+	<div class="wrap-btn">
+				<input type="submit" value="保存" class="btn">
+				<input type="button" value="取消" class="btn white"  onclick="quxiao(this)">
+			</div>
+	</div>
+</div>
+<div class="workjy"  id="item3">
+	<div class="mr_title">
+		
+		<span class="mr_title_c">项目经验  </span>
+		<span class="tianjia" onclick="tianjia(this)">
+			<i  class="m-icon i-pen"></i> <em>添加</em>
+		</span>
+	</div>
+	<div class="mr_add_work">
+	<div class="list1">
+	<label for="">项目名称</label><input type="text"> </div>
+	<div class="list1">
+	<label for="">你的职责</label><input type="text"> </div>
+	<div class="list1">
+	<label for="">项目起止时间</label><input type="text">    —<input type="text"></div>
+	<div class="list1">
+	<label for="">项目描述</label><textarea class="formTerms"cols="10" rows="10"></textarea> </div>
+	<div class="wrap-btn">
+				<input type="submit" value="保存" class="btn" >
+				<input type="button" value="取消" class="btn white"  onclick="quxiao(this)">
+			</div>
+	</div>
+</div>
+<div class="workjy"  id="item4">
+	<div class="mr_title">
+		
+		<span class="mr_title_c"> 期望职位  </span>
+		<span class="tianjia" onclick="tianjia(this)">
+			<i  class="m-icon i-pen"></i> <em>添加</em>
+		</span>
+	</div>
+	<div class="mr_add_work">
+	<div class="list1">
+	<label for="">职位</label><input type="text"> </div>
+	<div class="list1">
+	<label for="">月薪</label><input type="text"> </div>
+	<div class="list1">
+	<label for="">城市</label><input type="text" id="qiwang"></div>
+	<div class="list1">
+	<label for="">补充说明</label><textarea class="formTerms"cols="10" rows="10"></textarea> </div>
+	<div class="wrap-btn">
+				<input type="submit" value="保存" class="btn" >
+				<input type="button" value="取消" class="btn white" onclick="quxiao(this)">
+			</div>
+	</div>
+</div>
+</div>
+<script type="text/javascript" src="__PUBLIC__/home/js/cityData.js"></script>
+<script type="text/javascript" src="__PUBLIC__/home/js/IIInsomniaCityPicker.js"></script>
+<script>
+    var cityPicker = new IIInsomniaCityPicker({
+        data: data,
+        target:'nowLive',
+        valType: 'k-v',
+        hideCityInput: {
+            name: 'city',
+            id: 'city'
+        },
+        hideProvinceInput: {
+            name: 'province',
+            id: 'province'
+        },
+    });
+
+    cityPicker.init();
+       var mudidi = new IIInsomniaCityPicker({
+        data: data,
+        target:'rpr',
+        valType: 'k-v',
+        hideCityInput: {
+            name: 'city',
+            id: 'city'
+        },
+        hideProvinceInput: {
+            name: 'province',
+            id: 'province'
+        },
+    });
+
+    mudidi.init();
+     var mudi = new IIInsomniaCityPicker({
+        data: data,
+        target:'qiwang',
+        valType: 'k-v',
+        hideCityInput: {
+            name: 'city',
+            id: 'city'
+        },
+        hideProvinceInput: {
+            name: 'province',
+            id: 'province'
+        },
+    });
+
+    mudi.init();
+</script>
+<script>
+	  function getByClassName(obj, cls){
+        var elements = obj.getElementsByTagName("*");
+        var result = [];
+        for(var i = 0; i < elements.length; i++){
+            if(elements[i].className == cls){
+                result.push(elements[i]);
+            }
+        }
+        return result;
+    }
+    
+    function hasClass( obj, cls ){ 
+        return obj.className.match(new RegExp("(\\s|^)" + cls + "(\\s|$)"));
+    }
+    
+    function removeClass( obj, cls ){ 
+        if( hasClass( obj, cls )){ 
+            //remove
+            var reg = new RegExp("(\\s|^)" + cls + "(\\s|$)");
+            obj.className = obj.className.replace(reg, "");
+        }
+    }
+   
+    //定义getByClassName函数，让函数实现给对象增加class 
+    function addClass(obj, cls){
+        if(!hasClass(obj, cls)){
+            obj.className += " " + cls;
+        }
+    }
+    
+   
+        window.onscroll = function(){       
+            var top = document.documentElement.scrollTop || document.body.scrollTop;
+            
+            var menus = document.getElementById("mr_module").getElementsByTagName("a");
+            
+            var items = getByClassName(document.getElementById("main-myResume"), "workjy");
+            
+            
+            var currentId = "";
+            
+            for ( var i=0; i< items.length; i++ ){ 
+                var _item = items[i];
+                var _itemTop = _item.offsetTop;
+                if( top > _itemTop - 200 ){ 
+                    currentId = _item.id;
+                    
+                } else { 
+                    break;
+                }           
+            }
+        
+                            
+      //请补充此处代码，给正确的menu下的a元素class赋值current
+           if(currentId){
+               for(var j = 0; j < menus.length; j++){
+                   var _menu = menus[j];
+                   var _href = _menu.href.split("#");
+                   if(_href[_href.length - 1] != currentId){
+                       removeClass(_menu, "active ");
+
+                   } else {
+                       addClass(_menu, "active ");
+                   }
+               }
+           } 
+        
+        }   
+    
+</script>
+</body>
+</html>
